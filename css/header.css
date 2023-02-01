@@ -1,0 +1,137 @@
+.navcontainer{
+	align-items: center;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.navlogo{
+	margin-left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navlogo h1{
+	color: var(--black);
+	margin-left: 10px;
+	font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.dropdown{
+	position: relative;
+	margin-right: 0;
+}
+
+.dropdown button{
+	border: none;
+	background-color: transparent;
+}
+
+.dropdown button i{
+	font-size: 30px;
+	color: var(--black);
+}
+
+
+.dropdowncontent{
+	left: -100vw;
+    width: 110vw;
+	cursor: pointer;
+	display: none;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background: var(--bgc);
+	position: absolute;
+    z-index: 1;
+	padding: 5px;
+	text-align: center;
+}
+
+.dropdowncontent li{
+	margin: 5px 0;
+}
+
+
+.dropdowncontent a{
+	transition: var(--tran05);
+	color: var(--grey);
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+	margin: 5px 0;
+}
+
+.dropdowncontent a:hover{
+	transition: var(--tran05);
+	text-decoration: underline;
+	font-size: 17px;
+}
+.dropdown:hover .dropdowncontent{
+	display: block;
+	cursor: pointer;
+}
+
+
+.navbuttons{
+	display: none;
+	margin-right: 0;
+}
+
+.navbuttons button{
+	transition: var(--tran05);
+	border-radius: 50px;
+	padding: 13px;
+	border: transparent;
+	background-color: transparent;
+	font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.navbuttons button:hover{
+	color: var(--red);
+	border: 1px solid var(--red);
+}
+
+.navlist{
+	display: none;
+}
+
+.navlist ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navlist ul li a{
+	margin: 0 5px;
+	transition: var(--tran05);
+	color: var(--grey);
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.navlist ul li a:hover{
+	transition: var(--tran05);
+	text-decoration: underline;
+}
+
+
+nav{
+	transition: var(--tran05);
+	padding: 50px 0;
+	background-color: var(--white);
+	position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    transition: 0.3s;
+}
+
+.navbarshrink{
+	padding: 10px 0px;
+	box-shadow: 1px 5px 15px var(--grey);
+}

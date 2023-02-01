@@ -1,0 +1,119 @@
+@media(min-width: 500px){
+	.navcontainer{
+		grid-template-columns: repeat(3, auto) !important;
+	}
+	.dropdown{
+		margin-right: auto !important;
+	}
+	.dropdowncontent{
+		left: -50vw !important;
+	}
+	.navbuttons{
+		display: flex !important;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+@media(min-width: 600px){
+	.box{
+		grid-template-columns: auto auto !important;
+	}
+	
+}
+
+
+@media(min-width: 700px){
+	.dropdown{
+		display: none;
+	}
+	.navlist{
+		display: block !important;
+	}
+	.box{
+		grid-template-columns: auto auto auto !important;
+	}
+	.b1{
+		border-right: 2px solid #EEEFF2;
+		padding-right: 50px !important;
+	}
+	.plansbottom{
+		grid-template-columns: auto auto !important;
+	}
+	.footer{
+		grid-template-columns: repeat(4, auto);
+	}
+	
+}
+
+@media(min-width:750px){
+	.card{
+		grid-template-columns: auto auto;
+	}
+}
+
+
+
+@media(min-width: 850px){
+	.navlist ul li a{
+		margin: 0 20px !important;
+	}
+	.maincontainer{
+		grid-template-columns: auto auto !important;
+		grid-gap: 40px;
+	}
+	.b1{
+		padding-right: 100px !important;
+	}
+	.featurescontainer {
+		grid-template-columns: auto auto;
+	}
+	.featuresleft{
+		margin-right: 100px;
+	}
+	
+}
+
+@media(min-width: 900px){
+	.featuresleft{
+		margin-right: 150px;
+	}
+	.f2{
+		margin-right: 100px;
+	}
+}
+
+
+
+@media(min-width: 950px){
+	.navbuttons button{
+		padding: 13px 40px !important;
+	}
+	.b1{
+		padding-right: 130px !important;
+	}
+	.featuresleft{
+		margin-right: 170px;
+	}
+	.plansbottom{
+		grid-template-columns: auto auto auto !important;
+	}
+	.f2{
+		margin-right: 150px;
+	}
+
+}
+
+@media(min-width: 1100px){
+	.plansbottom{
+		column-gap: 50px;
+	}
+	.plan{
+		width: 330px;
+	}
+	.f2{
+		margin-right: 200px;
+	}
+}
+
+

@@ -1,0 +1,39 @@
+.mapcontainer{
+	margin-top: 100px !important;
+}
+
+.maptop{
+	margin-bottom: 150px;
+}
+
+.maptop h1{
+	color: var(--black);
+	text-align: center;
+	font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+	max-width: 380px;
+}
+
+.maptop p{
+	margin-top: 20px;
+	color: var(--grey);
+	text-align: center;
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+	max-width: 555px;
+}
+
+.logos{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 100px auto;
+	gap: 20px;
+}
+
+.logos img{
+	width: 190px;
+	height: 60px;
+}
+

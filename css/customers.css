@@ -1,0 +1,153 @@
+.customerscontainer{
+	margin-top: 30px;
+}
+
+.customerstop h1{
+	color: var(--black);
+	text-align: center;
+	font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+	max-width: 447px;
+}
+
+.customerstop p{
+	margin: 20px auto 200px;
+	color: var(--grey);
+	text-align: center;
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+	max-width: 555px;
+}
+
+.customersbottom{ 
+	padding-bottom: 100px;
+}
+
+
+.owl-dots{
+	color: var(--grey);
+
+}
+
+.customer{
+	min-width: 300px;
+	max-width: 400px;
+	height: 230px;
+	padding: 30px;
+	background-color: var(--white);
+	border: 2px solid #dddddd;
+    border-radius: 10px;
+	transition: var(--tran05);
+}
+
+.customer:hover{
+	border-color: var(--red);
+}
+
+.customertop img{
+	width: 50px !important;
+	margin-left: 0;
+}
+
+.customertop{
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.name{
+	margin-left: 0;
+}
+
+.name h1{
+	color: var(--black);
+	font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.name p{
+	margin-right: 0;
+	color: var(--grey);
+	font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.star{
+	margin-right: 0;
+	display: flex;
+	align-items: center;
+}
+
+.star p{
+	color: var(--black);
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.material-symbols-outlined {
+	color: orange;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 100,
+  'GRAD' 200,
+  'opsz' 20
+}
+
+.owl-dot{
+	transition: var(--tran05);
+	border-radius: 50%;
+	margin: 7px;
+	width: 15px;
+	height:15px;
+	background-color: #DDE0E4 !important;
+}
+
+.owl-dots{
+	position: absolute;
+    bottom: 35px;
+}
+.carousel{
+	gap: 50px;
+}
+
+
+.owl-dots button.active{
+	border-radius: 10px;
+	width: 35px;
+	background-color: var(--red) !important;
+}
+
+.owl-nav{
+	margin: 50px auto;
+	text-align: right;
+}
+
+.owl-nav button{
+	transition: var(--tran05);
+	margin: 10px 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50% ;
+	border: 2px solid #F53838 !important;
+}
+
+.owl-nav button:hover{
+	background-color: var(--red) !important;
+}
+.owl-nav button:hover span{
+	color: white;
+}
+
+.owl-nav button span{
+	color: var(--red);
+	font-size: 30px;
+}
+
+.owl-item .active{
+	border-color: var(--red);
+}

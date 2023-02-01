@@ -1,0 +1,134 @@
+.planscontainer{
+	margin-top: 100px !important;
+}
+
+.planstop{
+	margin-bottom: 60px;
+}
+
+.planstop h1{
+	text-align: center;
+	color: var(--black);
+	font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.planstop p{
+	margin-top: 20px;
+	max-width: 555px;
+	text-align: center;
+	color: var(--grey);
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+.plansbottom{
+	display: grid;
+	grid-template-columns: auto;
+	column-gap: 25px;
+}
+
+.plan{
+	transition: var(--tran05);
+	background-color: var(--white);
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+	height: 760px;
+	min-width: 300px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+
+.plan img{
+	margin-top: 80px;
+	width: 144px;
+}
+
+.plan h1{
+	margin: 30px auto;
+	text-align: center;
+	color: var(--black);
+	font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.plan ul li{
+	margin-bottom: 10px;
+	color: var(--grey);
+	font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.plan:hover i{
+	color: var(--red);
+}
+
+.plan ul li i{
+	color: var(--green);
+	margin-right: 25px;
+	font-size: 20px;
+}
+
+.plan h2{
+	text-align: center;
+	color: var(--black);
+	font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.plan h2 span{
+	color: var(--grey);
+	font-weight: 100;
+}
+
+.plan button{
+	margin-bottom: 50px;
+	padding: 13px 60px;
+	transition: var(--tran05);
+	color: var(--red);
+	background-color: transparent;
+	border: 2px solid #F53838;
+    border-radius: 50px;
+	font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.plan button:hover{
+	background-color: var(--red);
+	color: var(--white);
+}
+
+.h130{
+	margin-top: 130px;
+}
+
+.h90{
+	margin-top: 90px;
+}
+
+.h50{
+	margin-top: 50px;
+}
+
+
+.plan button:hover{
+	box-shadow: 1px 15px 20px 2px rgb(245 56 56 / 35%);
+}
+
+.plan:hover{
+	border-color: var(--red);
+}
+
+.plan ul li::marker{
+	margin-right: 20px;
+}

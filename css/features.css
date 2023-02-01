@@ -1,0 +1,46 @@
+.featurescontainer{
+	display: grid;
+	grid-template-columns: auto;
+	margin-bottom: 100px;
+}
+
+.featuresleft{
+	margin-bottom: 50px;
+}
+
+.featuresright{
+	max-width: 420px;
+}
+
+
+.featuresright h1{
+	color: var(--black);
+	font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.featuresright p{
+	margin: 20px auto;
+	color: var(--grey);
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.featuresright li{
+	margin: 7px auto;
+	color: var(--grey);
+	font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+	list-style-position: inside;
+}
+
+.featuresright li i{
+	display: inline-block;
+	width: 20px;
+	font-weight: 700;
+	margin-right: 12px;
+	color: var(--green);
+}
